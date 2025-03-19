@@ -22,8 +22,28 @@ To start working with Jupyter Notebook, run the following command:
 python -m notebook
 ```
 
-This will open **Jupyter Notebook** in your web browser, allowing you to execute and visualize **OpenCV-based image processing** scripts.
+This will open **Jupyter Notebook** in your web browser, allowing you to execute and visualize **OpenCV-based image processing** scripts. 
 
+## ⌨️ Jupyter Notebook Shortcuts
+Here are some essential **Jupyter Notebook keyboard shortcuts** to improve efficiency:
+
+### General Shortcuts
+- `Shift + Enter` → Run the current cell and move to the next
+- `Ctrl + Enter` → Run the current cell but stay on it
+- `Alt + Enter` → Run the current cell and insert a new one below
+- `Esc + A` → Insert a new cell **above**
+- `Esc + B` → Insert a new cell **below**
+- `Esc + D + D` → Delete the selected cell
+- `Esc + M` → Convert cell to **Markdown**
+- `Esc + Y` → Convert cell to **Code**
+- `Esc + L` → Toggle **line numbers** in cell
+- `Esc + H` → Show **help menu**
+
+### Navigation
+- `Up/Down Arrow` → Move **between cells**
+- `Ctrl + Shift + -` → Split a cell at the cursor
+- `Shift + Tab` → Show **tooltip** for functions
+- `Ctrl + Shift + P` → Open **command palette**
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to submit **issues** or **pull requests** to enhance this repository. 
