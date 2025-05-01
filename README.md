@@ -6,6 +6,44 @@ This repository provides an introduction to image processing and understanding u
 ## 🔧 Prerequisites
 Ensure you have **Python** installed on your system before proceeding. It is recommended to use **Python 3.6 or later**.
 
+---
+
+### 🖼️ Image Processing Topics Covered
+
+1. **Image Smoothing / Blurring Filters using OpenCV**
+   - Averaging (Lowpass) filter with `cv2.filter2D`
+   - Box filter with `cv2.boxFilter`
+   - Simple blur with `cv2.blur`
+   - Median filter with `cv2.medianBlur` (good for salt-and-pepper noise)
+   - Gaussian filter with `cv2.GaussianBlur`
+
+2. **Noise Removal Techniques**
+   - Salt noise removal using Min Filter (PIL)
+   - Pepper noise removal using Max Filter (PIL)
+   - Both Salt & Pepper noise removal using Median Filter
+
+3. **PIL-Based Image Processing**
+   - `ImageFilter.MinFilter` and `ImageFilter.MaxFilter`
+   - Grayscale conversion using `ImageOps.grayscale`
+   - Edge detection using `ImageFilter.FIND_EDGES`
+
+4. **Edge Detection**
+   - Sobel operator using `cv2.Sobel` (X and Y derivatives)
+   - Laplacian operator using `cv2.Laplacian`
+   - Laplacian of Gaussian (LoG): combining Gaussian blur + Laplacian
+
+5. **Histogram Equalization**
+   - Improve contrast of:
+     - Dark images
+     - Bright images
+     - Low contrast images
+
+6. **Image Transformations**
+   - Negative Transformation (invert pixel values)
+   - Power-Law (Gamma) Transformation for brightness correction
+
+---
+
 ## 📥 Installation
 To set up your environment, install the required dependencies using **pip**:
 
